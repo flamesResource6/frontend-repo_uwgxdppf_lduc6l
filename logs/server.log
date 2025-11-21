@@ -1,0 +1,57 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 241 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.9.3:3000/
+6:33:58 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:175:93: ERROR: Expected identifier after "http:" in namespaced JSX name
+6:33:58 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:175:93: ERROR: Expected identifier after "http:" in namespaced JSX name
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:175:93
+  
+  Expected identifier after "http:" in namespaced JSX name
+  173|          {mode === 'night' && (
+  174|            <motion.div className="absolute inset-0" initial={{ opacity: 0 }} animate={{ opacity: [0, 0.35, 0.2] }} transition={{ repeat: Infinity, duration: 6 }}>
+  175|              <div className="h-full w-full bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><g fill=\"%2300D4FF\" opacity=\"0.14\"><circle cx=\"8\" cy=\"8\" r=\"1\"/><circle cx=\"80\" cy=\"40\" r=\"1\"/><circle cx=\"120\" cy=\"120\" r=\"1\"/></g></svg>')]" />
+     |                                                                                               ^
+  176|            </motion.div>
+  177|          )}
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+6:34:22 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:175:93: ERROR: Expected identifier after "http:" in namespaced JSX name
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:175:93
+  
+  Expected identifier after "http:" in namespaced JSX name
+  173|          {mode === 'night' && (
+  174|            <motion.div className="absolute inset-0" initial={{ opacity: 0 }} animate={{ opacity: [0, 0.35, 0.2] }} transition={{ repeat: Infinity, duration: 6 }}>
+  175|              <div className="h-full w-full bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><g fill=\"%2300D4FF\" opacity=\"0.14\"><circle cx=\"8\" cy=\"8\" r=\"1\"/><circle cx=\"80\" cy=\"40\" r=\"1\"/><circle cx=\"120\" cy=\"120\" r=\"1\"/></g></svg>')]" />
+     |                                                                                               ^
+  176|            </motion.div>
+  177|          )}
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
